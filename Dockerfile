@@ -9,3 +9,5 @@ COPY . /var/www/html/
 # Apache 80-portda ishlaydi
 EXPOSE 80
 
+# Apache document root ichiga bot.php joylash
+COPY bot.php /var/www/html/index.php
